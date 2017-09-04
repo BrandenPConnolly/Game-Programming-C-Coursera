@@ -16,11 +16,11 @@ namespace FloatingPointNums
             //Declaring variables
 
             int score = 2546;
-            float totalSecondsPlayed = 6574;
+            int totalSecondsPlayed = 6574;
 
             //calculate and display result
 
-            float scorePerSecond = score / totalSecondsPlayed;
+            float scorePerSecond = (float)score / totalSecondsPlayed;
 
             Console.WriteLine("Score / Second: " + scorePerSecond);
             Console.WriteLine();
